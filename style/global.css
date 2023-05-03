@@ -1,0 +1,172 @@
+body {
+	
+	margin: 0;
+	
+    color: #222222;
+    font-size: 12pt;
+	font-family: 'Montserrat', 'Noto Sans KR';
+
+    overflow-x: hidden;
+	
+}
+@media only screen and (max-width: 767px) {
+
+    body {
+
+        font-size: 3vmin;
+    
+    }
+
+}
+
+input {
+    
+    padding: 1em;
+    
+    border: none;
+    border-radius: 0.5em;
+    
+    font-size: 1.5em;
+    font-family: 'Montserrat', 'Noto Sans KR';
+    
+    box-sizing: border-box;
+    
+}
+input::placeholder {
+    
+    font-size: 0.5em;
+    
+}
+
+
+a {
+    
+    text-decoration: none;
+    
+}
+
+.clear {
+	
+	clear: both;
+	
+	margin: 0;
+	padding: 0;
+	
+	width: 0;
+	height: 0;
+	
+}
+
+.container {
+	
+	position: relative;
+	
+	margin: 0 auto;
+	
+	width: 100vmin;
+	
+}
+
+.item-container {
+	/* 공간이 남으면
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	*/
+}
+.item-container .item {
+	
+	display: inline-block;
+	
+	width: 30vmin;
+	height: 30vmin;
+	
+	border-radius: 0.5em;
+	
+	overflow: hidden;
+	
+	transition: 0.5s;
+	
+}
+.item-container .item img {
+	
+	width: 100%;
+	height: auto;
+	
+	background-color: #F5F5F5;
+	
+	
+}
+.item-container .item .name {
+	
+	margin-bottom: 0;
+	
+	font-size: 2em;
+	font-weight: bold;
+	
+}
+.item-container .item .sub {
+	
+	margin: 0;
+	
+	font-size: 1em;
+	
+}
+.item-container .item .tag {
+	
+	margin-top: 0;
+	
+	font-size: 1em;
+	font-weight: bold;
+	
+}
+.item-container .item .rating {
+	
+	margin-top: 0;
+	
+	font-size: 1em;
+	font-weight: bold;
+	
+}
+.item-container .item .price {
+	
+	margin-top: 0;
+	
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+.item-container .item .add {
+	
+	display: inline-block;
+	
+	margin: 1em 0;
+	padding: 1em;
+    
+    border-radius: 0.5em;
+    
+	background-color: #F44336;
+	
+	color: #FFFFFF;
+    font-size: 1em;
+	font-weight: bold;
+	
+	user-select: none;
+	cursor: pointer;
+	
+}
+.item-container .item .add i {
+	
+    font-size: 1em;
+	font-weight: bold;
+	vertical-align: bottom;
+
+}
+.item-container .item-open {
+	
+	width: 100%;
+	height: auto;
+	
+	overflow: visible;
+	
+}

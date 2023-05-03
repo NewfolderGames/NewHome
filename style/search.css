@@ -1,0 +1,77 @@
+#Search {
+	
+	text-align: center;
+	
+}
+#Search #Search-Bar {
+    
+    width: 90vmin;
+	height: 2em;
+	
+	background-color: #EEEEEE;
+	
+}
+#Search #Query {
+
+	margin-top: 0.5em;
+	
+	height: 2em;
+	
+	overflow: hidden;
+	
+	transition: height 0.5s;
+	
+}
+#Search #Query h3 {
+	
+	margin: 0;
+	margin-bottom: 0.5em;
+	
+	color: #AAAAAA;
+	font-size: 1.5em;
+	
+	user-select: none;
+	cursor: pointer;
+	
+}
+#Search #Query i {
+	
+	font-size: 1.5em;
+	vertical-align: bottom;
+	
+	transition: transform 0.25s;
+	
+}
+#Search #Query dl {
+	
+	display: inline-block;
+	
+	margin: 0 auto;
+	
+	text-align: left;
+	
+}
+#Search #Query dt {
+	
+	font-weight: bold;
+	
+}
+
+.no-result {
+	
+	padding: 5vmin;
+	
+	color: #AAAAAA;
+	text-align: center;
+	
+}
+.no-result .header {
+	
+	font-size: 2em;
+	
+}
+.no-result .extra {
+	
+	font-size: 1em;
+	
+}

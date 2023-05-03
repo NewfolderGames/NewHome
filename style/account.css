@@ -1,0 +1,74 @@
+.item .add {
+	
+	display: none !important;
+	
+}
+.item .amount {
+	
+	font-size: 1em;
+	font-weight: bold;
+	
+}
+
+#Info {
+	
+	text-align: center;
+	
+}
+#Info ul {
+	
+	display: inline-block;
+	
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+	
+	font-size: 1.5em;
+	text-align: left;
+	
+	list-style: none;
+
+}
+
+#Cart .container > .info {
+	
+	text-align: right;
+	
+}
+#Cart .container > .info .amount {
+	
+	margin-bottom: 0;
+	
+	font-size: 1em;
+	
+}
+#Cart .container > .info .price {
+	
+	margin-top: 0;
+	
+	font-size: 2em;
+	font-weight: bold;
+	
+}
+
+button {
+	
+	padding: 1em;
+    
+    border: none;
+    border-radius: 0.5em;
+    
+	width: 90vmin;
+	
+    font-size: 1.5em;
+    font-family: 'Montserrat', 'Noto Sans KR';
+    
+    box-sizing: border-box;
+	
+}
+button i {
+	
+	font-size: 1.5em;
+	
+	vertical-align: bottom;
+	
+}

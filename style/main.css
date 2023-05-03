@@ -1,0 +1,45 @@
+main {
+    
+	min-height: 100vh;
+	
+	background-color: #FFFFFF;
+	
+	color: #222222;
+	
+}
+main section.container {
+
+	
+}
+main section > .container {
+    
+	margin-top: 5vmin;
+	margin-bottom: 5vmin;
+	
+    width: 90vmin;
+    
+}
+
+main section > .container > .header {
+	
+	margin: 0 auto;
+	margin-bottom: 5vmin;
+	
+	text-align: center;
+
+}
+main section > .container > .header > h1 {
+    
+	display: inline-block;
+
+    margin: 0;
+    
+	border-top: 0.125em solid #E0E0E0;
+	border-bottom: 0.125em solid #E0E0E0;
+
+    text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+    
+}
+

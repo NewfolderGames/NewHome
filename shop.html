@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		<title>NEWHOME - SHOP</title>
+		
+		<!-- 구글 폰트, 아이콘 -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+		<!-- 공통 CSS -->
+		<link rel="stylesheet" href="./style/global.css">
+		<link rel="stylesheet" href="./style/nav.css">
+		<link rel="stylesheet" href="./style/header.css">
+		<link rel="stylesheet" href="./style/main.css">
+		<link rel="stylesheet" href="./style/footer.css">
+		<link rel="stylesheet" href="./style/search.css">
+		
+		<!-- 페이지 CSS -->
+		<link rel="stylesheet" href="./style/shop.css">
+		
+	</head>
+	<body>
+
+		<nav><div class="container">
+
+			<div class="logo"><a href="./index.html">
+				<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333.33334 333.33334" height="3em" width="3em" xml:space="preserve" id="svg2" version="1.1"><metadata id="metadata8"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/></cc:Work></rdf:RDF></metadata><defs id="defs6"/><g transform="matrix(1.3333333,0,0,-1.3333333,0,333.33333)" id="g10"><g transform="translate(125,126.3726)" id="g12"><path id="path14" style="fill:#dcdddd;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 V -48.373 H 64 V -0.224 L 77.255,-0.441 32,44.627 h -64 z"/></g><g transform="translate(125,126.3726)" id="g16"><path id="path18" style="fill:none;stroke:#dcdddd;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 0,0 V -48.373 H 64 V -0.224 L 77.255,-0.441 32,44.627 h -64 z"/></g><g transform="translate(93,171.2549)" id="g20"><path id="path22" style="fill:#f7f7f8;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -45.255,-45.255 H -32 v -48 h 64 v 48 h 13.255 z"/></g><g transform="translate(93,171.2549)" id="g24"><path id="path26" style="fill:none;stroke:#f7f7f8;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 0,0 -45.255,-45.255 H -32 v -48 h 64 v 48 h 13.255 z"/></g></g></svg>
+				<p>NEWHOME</p>
+				<div class="clear"></div>
+			</a></div>
+			<i id="nav-button" class="material-icons">menu</i>
+			<ul id="nav-menu">
+				<li><a href="./shop.html">SHOP</a></li>
+				<li><a href="./about.html">ABOUT</a></li>
+				<li><a href="./signin.html">SIGN IN</a></li>
+			</ul>
+			<div class="clear"></div>
+
+		</div></nav>
+		<div class="nav-blank"></div>
+		
+		<main>
+			
+			<section id="Search" class="container"><div class="container">
+			
+				<div class="header">
+					<h1>SEARCH</h1>
+					<p>원하는 제품을 찾아 보세요</p>
+				</div>
+				<input id="Search-Bar" type="text" placeholder="예) 태그:의자 price:<=100000 평가:>=4">
+				<div id="Query">
+					<h3 id="Query-Button">HELP <i class="material-icons">arrow_drop_down</i></h3>
+					<dl>
+						<dt>검색문</dt>
+						<dd>검색문은 한글로도 작성 가능합니다.</dd>
+						<dd>이름과 태그는 한번만 작성 가능합니다.</dd>
+						<dd>'&lt;'이나 '&gt;='같은 연산자를 쓰지 않으면 자동으로 '=='으로 바뀝니다.</dd>
+						<dt>이름(name)</dt>
+						<dd>이름으로 제품을 검색할 때 사용 됩니다.</dd>
+						<dd>검색문을 쓰지 않아도 사용 가능합니다.</dd>
+						<dd>name:[이름] / name:=[이름] / name:==[이름]</dd>
+						<dt>태그(tag)</dt>
+						<dd>태그가 붙은 제품을 검색할 때 사용 됩니다.</dd>
+						<dd>tag:[태그] / tag:=[태그] / tag:==[태그]]</dd>
+						<dt>가격(price)</dt>
+						<dd>가격 기준으로 제품을 점색할 때 사용 됩니다.</dd>
+						<dd>여러개를 사용할 수 있습니다.</dd>
+						<dd>price:&lt;=[가격] / price:[가격] / price:&gt;=[가격]</dd>
+						<dt>평가(rating)</dt>
+						<dd>평가 기준으로 제품을 점색할 때 사용 됩니다.</dd>
+						<dd>여러개를 사용할 수 있습니다.</dd>
+						<dd>rating:&lt;=[평가] / rating:[평가] / rating:&gt;=[평가]</dd>
+					<dl>
+				</div>
+				
+			</div></section>
+			<section id="Item" class="container"><div class="container">
+				
+				<div class="header">
+					<h1>SHOP</h1>
+					<p>Shop</p>
+				</div>
+				<ul>
+					<li id="Sort-name">이름 <i class="material-icons">arrow_drop_up</i></li>
+					<li id="Sort-price">가격 <i class="material-icons">arrow_drop_up</i></li>
+					<li id="Sort-rating">평가 <i class="material-icons">arrow_drop_up</i></li>
+					<li id="Sort-new">최근 <i class="material-icons">arrow_drop_up</i></li>
+				</ul>
+				<div class="item-container"><!-- 결과 아이템 넣는 곳 --></div>
+				
+			</div></section>
+		
+		</main>
+
+        <footer><div class="container">
+            
+            <table>
+                <td style="font-size: 2em; font-weight: bold;">NEWHOME</td>
+                <td style="font-size: 0.5em;">
+                    Copyright &copy; 2017 by NEWHOME<br>
+                    Contact(email) : newhomeofficial@gmail.com<br>
+                    Contact(phone) : 1234-1234
+                </td>
+            </table>
+            
+        </div></footer>
+
+	</body>
+	
+	<!-- 스크립트 -->
+	<script src="script/jquery-3.2.1.min.js"></script>
+	<script src="script/item.js"></script>
+	<script src="script/nav.js"></script>
+	<script src="script/search-bar.js"></script>
+	<script src="script/shop.js"></script>
+	
+</html>

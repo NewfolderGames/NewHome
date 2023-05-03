@@ -1,0 +1,145 @@
+header {
+	
+	position: relative;
+	overflow: hidden;
+	
+}
+header .background {
+	
+	position: absolute;
+	
+	width: 100%;
+	height: 100%;
+	
+	background-image: url("../image/header.jpg");
+	background-position: center center;
+	background-size: cover;
+	
+	filter: blur(2.5px);
+	
+}
+header .container {
+	
+	height: 45vmin;
+	
+	background-color: rgba(255, 255, 255, 0.75);
+	
+	overflow: hidden;
+	
+}
+
+header .container .button {
+	
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	
+	width: 1.5em;
+    height: 1.5em;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    
+	color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5em;
+    
+    z-index: 11;
+	
+	user-select: none;
+	cursor: pointer;
+	
+}
+
+header .container .item {
+	
+	position: absolute;
+	top: 0;
+	left: -100%;
+	
+	width: 100%;
+	height: 100%;
+	
+}
+header .container .item:first-child {
+	
+	top: 0;
+	left: 0;
+	
+}
+header .container .item .tag, header .container .item .description, header .container .item .rating {
+	
+	display: none;
+	
+}
+header .container .item .info {
+	
+	position: absolute;
+	bottom: 10%;
+	right: 20%;
+	
+	text-align: right;
+	
+}
+header .container .item p {
+	
+	margin: 0;
+	
+}
+header .container .item .name {
+	
+	font-size: 1em;
+	font-weight: bold;
+	
+}
+header .container .item .sub {
+	
+	font-size: 1em;
+	
+}
+header .container .item .price {
+	
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+header .item .add {
+	
+	display: inline-block;
+	
+	margin-top: 0.5em;
+	padding: 1em;
+    
+    border-radius: 0.5em;
+    
+	background-color: #F44336;
+	
+	color: #FFFFFF;
+    font-size: 1em;
+	font-weight: bold;
+	
+	user-select: none;
+	cursor: pointer;
+	
+}
+header .item .add i {
+	
+    font-size: 1em;
+	font-weight: bold;
+	vertical-align: bottom;
+
+}
+header .container .item img {
+	
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	
+	width: 30vmin;
+	height: 30vmin;
+	
+	filter: drop-shadow(10px 10px 10px #888888); 
+	
+}

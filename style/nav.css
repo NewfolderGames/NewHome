@@ -1,0 +1,156 @@
+nav {
+	
+    position: fixed;
+    
+    width: 100%;
+    
+	background-color: #EEEEEE;
+    
+    z-index: 10000;
+
+}
+nav .container {
+	
+	padding: 0.5em 0;
+	
+}
+.nav-blank {
+    
+    height: 4em;
+    
+}
+nav a {
+    
+    color: #222222;
+    
+}
+
+nav .logo {
+	
+	float: left;
+	
+	margin-left: 5vmin;
+	
+}
+nav .logo svg {
+	
+	float: left;
+    
+    vertical-align: top;
+	
+}
+nav .logo p {
+	
+	float: left;
+	
+	margin: 0;
+	
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.5em;
+    
+    vertical-align: top;
+	
+}
+@media only screen and (max-width: 767px) {
+
+    nav .logo {
+	
+        float: none;
+        
+        margin: 0 auto;
+        
+        text-align: center;
+
+    }
+    nav .logo svg {
+        
+        display: inline-block;
+        
+        float: none;
+        
+        width: 9vmin;
+        height: 9vmin;
+    
+    }
+    nav .logo p {
+     
+        display: inline-block;
+        
+        float: none;
+        
+    }
+
+}
+
+nav #nav-button {
+    
+    display: none;
+    
+    user-select: none;
+    cursor: pointer;
+    
+}
+nav #nav-menu {
+	
+	float: right;
+	
+	margin: 0;
+	margin-right: 5vmin;
+	padding: 0;
+	
+	list-style: none;
+	
+	font-size: 1.5em;
+	line-height: 2em;
+	
+}
+nav #nav-menu li {
+		
+	float: left;
+    
+	margin: 0 1em;
+	
+}
+@media only screen and (max-width: 767px) {
+    
+    nav #nav-button {
+    
+        position: absolute;
+        top: 1vmin;
+        right: 5vmin;
+        
+        display: inline-block;
+        
+        font-size: 3em;
+
+		transition: transform 0.25s;
+
+    }
+    nav #nav-menu {
+
+        float: none;
+        
+        margin: 0;
+        
+        height: 0;
+        
+        text-align: right;
+        
+        overflow-y: hidden;
+        
+        transition: height 0.5s;
+
+    }
+    nav #nav-menu li {
+
+        float: none;
+        
+        margin: 0;
+        padding: 0 1em;
+        
+        background-color: #E0E0E0;
+
+    }
+    
+}

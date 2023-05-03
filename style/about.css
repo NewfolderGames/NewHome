@@ -1,0 +1,72 @@
+header .background {
+
+	background-image: url("../image/about.jpeg");
+
+}
+header .container {
+	
+	background-color: rgba(255, 255, 255, 0.75);
+	
+	text-align: center;
+	
+}
+header .logo {
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	display: inline-block;
+	
+	width: 90vmin;
+	
+}
+header .logo svg {
+	
+	display: inline-block;
+	
+	width: auto;
+	height: 6em;
+	
+	vertical-align: top;
+	
+}
+header .logo p {
+	
+	display: inline-block;
+	
+	margin: 0;
+	
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 2em;
+	vertical-align: top;
+	
+}
+header .slogan {
+	
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	display: inline-block;
+	
+	margin: 0;
+	
+	width: 90vmin;
+	
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+
+.container .header img {
+	
+	border-radius: 50%;
+	
+	width: 25vmin;
+	height: 25vmin;
+	
+}
